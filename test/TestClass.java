@@ -20,6 +20,8 @@ public class TestClass extends TestSuite {
         //pass
         double result = 5.34;
         assertEquals(5.34,result);
+        assertEquals(4.0/2.0,2.0);
+        assertEquals((1.0/6.0)*6.0,1.0);
         //fail
         assertEquals(3.543,7.12);
     }
